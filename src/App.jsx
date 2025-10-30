@@ -1,12 +1,14 @@
+// App.js
 import React from 'react'
 import Clock from './Clock'
+import './index.css'
 
 export default function App(){
   return (
     <div className="app-root">
       <header>
         <h1>React Analog Clock</h1>
-        <p style={{fontWeight:"bold",color:"white",fontSize:"18PX"}}>Real-time analog clock. Set a custom time or use system time.</p>
+        <p style={{fontWeight:"bold",color:"white",fontSize:"18px"}}>Real-time analog clock with alarm feature. Set custom time or use system time.</p>
       </header>
       <main>
         <Clock />
